@@ -15,7 +15,7 @@ from scipy.stats import skew, kurtosis
 import joblib
 
 # Load the trained model
-model = joblib.load('https://github.com/vairam-exe/fakecurr/raw/main/random_forest_model.joblib')
+model = joblib.load(r'random_forest_model.joblib')
 
 # Function to calculate variance, skewness, and kurtosis
 def calculate_stats(img):
